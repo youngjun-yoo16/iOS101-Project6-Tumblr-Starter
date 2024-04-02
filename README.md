@@ -1,8 +1,8 @@
-# Project 6 - *Tumblr Feed*
+# Project 6 - *Tumblr Detail*
 
 Submitted by: **Youngjun Yoo**
 
-**Tumblr Feed** is an app that displays a list of Tumblr blog posts in a scrolling list. It demonstrates creating and configuring a table view and a custom table view cell, along with fetching data from an API. The project emphasizes UI setup, including table views and custom cells, and dynamically loading images and text from the Tumblr API into the app. It's a practical exercise in applying API data fetching and UI elements in iOS development.
+**Tumblr Detail** is an app that displays a list of Tumblr blog posts in a scrolling list. It demonstrates creating and configuring a table view and a custom table view cell, along with fetching data from an API. The project emphasizes UI setup, including table views and custom cells, and dynamically loading images and text from the Tumblr API into the app. It's a practical exercise in applying API data fetching and UI elements in iOS development.
 
 Time spent: **2** hours spent in total
 
