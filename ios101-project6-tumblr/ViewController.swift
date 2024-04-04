@@ -35,6 +35,15 @@ class ViewController: UIViewController, UITableViewDataSource {
         if let photo = post.photos.first {
             let url = photo.originalSize.url
             Nuke.loadImage(with: url, into: cell.postImageView)
+            // Set the corner radius to make the image view rounded
+            cell.postImageView.layer.cornerRadius = cell.postImageView.frame.height / 8 // Adjust this value for desired rounding
+            
+            // Set the border width and color
+            cell.postImageView.layer.borderWidth = 2 // Adjust the border width
+            cell.postImageView.layer.borderColor = UIColor.black.cgColor // Set the border color
+            
+            // Make sure the image is clipped to the rounded corners
+            cell.postImageView.clipsToBounds = true
         }
 
         return cell
